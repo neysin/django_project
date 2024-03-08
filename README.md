@@ -5,8 +5,9 @@
 ```mermaid
 gantt
     title Django Blog Project
+    dateFormat  YYYY-MM-DD
 
-    section 프로젝트 기획 및 설계
+    section 기획 및 설계
     URL 구조 기획       : 2024-03-07, 1d
     DB 테이블 구조 기획  : 2024-03-07, 1d
     WBS 생성            :2024-03-08  , 1d
@@ -22,10 +23,10 @@ gantt
 
     section UI
     BootStrap 사용 :  2024-03-11 , 1d
-    와이어프레임 제작 : :  2024-03-11 , 1d
+    와이어프레임 제작 :  2024-03-11 , 1d
 
 
     section 테스트 및 배포
-    테스트 : :  2024-03-12 , 1d
+    테스트 : 2024-03-12 , 1d
     배포 : 2024-03-12 , 1d
 ```
