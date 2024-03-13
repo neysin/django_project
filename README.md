@@ -1,5 +1,14 @@
-# blog
+# 1. 목표와 기능
+## 1.1 목표
+* Django를 활용한 서비스 제작
+* DB에 대한 이해
+## 1.2 기능
+* 메인페이지
+* CRUD 구현
+* 로그인 및 회원가입
+
 # ERD
+<img src="readme_img/Django_ERD.png">
 
 # WBS
 
