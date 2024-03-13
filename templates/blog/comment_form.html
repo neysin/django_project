@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">댓글 수정</h1>
+    <form method="post">
+        {% csrf_token %}
+        <table class="table">
+            {{form}}
+        </table>
+        <button type="submit" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">작성</button>
+    </form>
+
+{% endblock content %}
+    

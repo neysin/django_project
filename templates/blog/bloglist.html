@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for i in posts %}
+    <p>{{ i.title }}</p>
+    <p>{{ i.content }}</p>
+    <p>{{ i.created_at }}</p>
+{% endfor %}
+
+{% endblock content %}
+
