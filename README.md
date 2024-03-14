@@ -82,60 +82,59 @@
 </table>
 
 # 폴더 트리
+📦 accounts
+  ┣ 📜admin.py
+  ┣ 📜apps.py
+  ┣ 📜forms.py
+  ┣ 📜models.py
+  ┣ 📜urls.py
+  ┣ 📜views.py
+  ┣ 📜tests.py
+  ┗ 📜__init__.py
 
-📦accounts
- ┣ 📜admin.py
- ┣ 📜apps.py
- ┣ 📜forms.py
- ┣ 📜models.py
- ┣ 📜urls.py
- ┣ 📜views.py
- ┣ 📜tests.py
- ┗ 📜__init__.py
- 
- 📦blog
- ┣ 📜admin.py
- ┣ 📜apps.py
- ┣ 📜forms.py
- ┣ 📜models.py
- ┣ 📜tests.py
- ┣ 📜urls.py
- ┣ 📜views.py
- ┗ 📜__init__.py
- 
- 📦config
- ┣ 📜asgi.py
- ┣ 📜settings.py
- ┣ 📜urls.py
- ┣ 📜wsgi.py
- ┗ 📜__init__.py
- 
- 📦main
- ┣ 📜admin.py
- ┣ 📜apps.py
- ┣ 📜models.py
- ┣ 📜tests.py
- ┣ 📜urls.py
- ┣ 📜views.py
- ┗ 📜__init__.py
- 
-📦templates
- ┣ 📂accounts
- ┃ ┣ 📜login.html
- ┃ ┣ 📜profile.html
- ┃ ┣ 📜signup.html
- ┣ 📂blog
- ┃ ┣ 📜post_detail.html
- ┃ ┣ 📜post_list.html
- ┃ ┣ 📜post_form.html
-  ┃ ┣ 📜post_delete.html
- ┃ ┣ 📜comment_form.html
- ┃ ┗ 📜bloglist.html
- ┣ 📂main
- ┃ ┣ 📜about.html
- ┃ ┗ 📜index.html
- ┃ ┗ 📜contact.html
- ┗ 📜base.html
+📦 blog
+  ┣ 📜admin.py
+  ┣ 📜apps.py
+  ┣ 📜forms.py
+  ┣ 📜models.py
+  ┣ 📜tests.py
+  ┣ 📜urls.py
+  ┣ 📜views.py
+  ┗ 📜__init__.py
+
+📦 config
+  ┣ 📜asgi.py
+  ┣ 📜settings.py
+  ┣ 📜urls.py
+  ┣ 📜wsgi.py
+  ┗ 📜__init__.py
+
+📦 main
+  ┣ 📜admin.py
+  ┣ 📜apps.py
+  ┣ 📜models.py
+  ┣ 📜tests.py
+  ┣ 📜urls.py
+  ┣ 📜views.py
+  ┗ 📜__init__.py
+
+📦 templates
+  ┣ 📂 accounts
+  ┃   ┣ 📜login.html
+  ┃   ┣ 📜profile.html
+  ┃   ┗ 📜signup.html
+  ┣ 📂 blog
+  ┃   ┣ 📜post_detail.html
+  ┃   ┣ 📜post_list.html
+  ┃   ┣ 📜post_form.html
+  ┃   ┣ 📜post_delete.html
+  ┃   ┣ 📜comment_form.html
+  ┃   ┗ 📜bloglist.html
+  ┣ 📂 main
+  ┃   ┣ 📜about.html
+  ┃   ┣ 📜index.html
+  ┃   ┗ 📜contact.html
+  ┗ 📜base.html
 
 # ERD
 <img src="readme_img/Django_ERD.png">
