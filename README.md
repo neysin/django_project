@@ -82,6 +82,7 @@
 </table>
 
 # 폴더 트리
+```
 accounts/
   ├─ admin.py
   ├─ apps.py
@@ -134,7 +135,7 @@ templates/
       ├─ about.html
       ├─ index.html
       └─ contact.html
-
+```
 
 # ERD
 <img src="readme_img/Django_ERD.png">
