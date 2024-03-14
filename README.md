@@ -286,3 +286,19 @@ gantt
         </td>
     </tr>
 </table>
+
+# 트러블 슈팅
+커스텀 유저를 만들어 사용할 때 
+django.db.utils.IntegrityError: UNIQUE constraint failed: accounts_customuser.nickname
+라는 nickname 필드에 대한 유니크 제약조건을 위반했다는 오류가 계속 발생
+
+해결방법으로
+1. 장고 모델에 있는 AbstractUser의 클래스에 아래 코드들을 추가.
+2. CustomUser 필드에 email과 nickname을 회원가입 시에 기입하도록 변경
+
+email = models.EmailField(_("email address"), blank=True, unique=True)
+nickname = models.CharField(max_length=50, unique=True)
+
+# 느낀점
+ERD와 URL 구조를 먼저 정리하는 것의 중요성을 깨닫게 되었습니다. 코드를 작성하면서 구조를 형성하려고 했으나, 구조의 혼란으로 인해 오히려 시간을 낭비하게 되었습니다. 이러한 경험을 통해, 프로젝트를 시작하기 전에 명확한 데이터 모델과 URL 구조를 설계하는 것이 중요하다는 것을 깨닫게 되었습니다.
+
