@@ -7,7 +7,7 @@
 * CRUD 구현
 * 로그인 및 회원가입
 
-# URL 구
+# URL 구조
 
 # 폴더 트리
 
@@ -20,6 +20,7 @@
  ┣ 📜views.py
  ┣ 📜tests.py
  ┗ 📜__init__.py
+ 
  📦blog
  ┣ 📜admin.py
  ┣ 📜apps.py
@@ -29,12 +30,14 @@
  ┣ 📜urls.py
  ┣ 📜views.py
  ┗ 📜__init__.py
+ 
  📦config
  ┣ 📜asgi.py
  ┣ 📜settings.py
  ┣ 📜urls.py
  ┣ 📜wsgi.py
  ┗ 📜__init__.py
+ 
  📦main
  ┣ 📜admin.py
  ┣ 📜apps.py
@@ -43,6 +46,7 @@
  ┣ 📜urls.py
  ┣ 📜views.py
  ┗ 📜__init__.py
+ 
 📦templates
  ┣ 📂accounts
  ┃ ┣ 📜login.html
