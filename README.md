@@ -9,6 +9,78 @@
 
 # URL 구조
 
+<table>
+  <tr>
+    <th>App Name</th>
+    <th>Views Function</th>
+    <th>HTML File</th>
+    <th>Remarks</th>
+  </tr>
+  <tr>
+    <td rowspan="3">main</td>
+    <td>index</td>
+    <td>index.html</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td>about</td>
+    <td>about.html</td>
+    <td>/about/</td>
+  </tr>
+  <tr>
+    <td>index</td>
+    <td>index.html</td>
+    <td>/contact/</td>
+  </tr>
+  <tr>
+    <td rowspan="5">blog</td>
+    <td>blog_list</td>
+    <td>blog_list.html</td>
+    <td>/blog/</td>
+  </tr>
+  <tr>
+    <td>blog_details</td>
+    <td>blog_details.html</td>
+    <td>/blog/&lt;int:pk&gt;</td>
+  </tr>
+  <tr>
+    <td>blog_write</td>
+    <td>blog_write.html</td>
+    <td>/blog/write/</td>
+  </tr>
+  <tr>
+    <td>blog_edit</td>
+    <td>blog_edit.html</td>
+    <td>/blog/edit/&lt;int:pk&gt;/</td>
+  </tr>
+  <tr>
+    <td>blog_delete</td>
+    <td>blog_delete.html</td>
+    <td>/blog/delete/&lt;int:pk&gt;/</td>
+  </tr>
+  <tr>
+    <td rowspan="4">accounts</td>
+    <td>login</td>
+    <td>login.html</td>
+    <td>/login/</td>
+  </tr>
+  <tr>
+    <td>logout</td>
+    <td></td>
+    <td>/logout/</td>
+  </tr>
+  <tr>
+    <td>signup</td>
+    <td>signup.html</td>
+    <td>/signup/</td>
+  </tr>
+  <tr>
+    <td>profile</td>
+    <td>profile.html</td>
+    <td>/profile/</td>
+  </tr>
+</table>
+
 # 폴더 트리
 
 📦accounts
