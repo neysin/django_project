@@ -297,6 +297,7 @@ django.db.utils.IntegrityError: UNIQUE constraint failed: accounts_customuser.ni
 2. CustomUser 필드에 email과 nickname을 회원가입 시에 기입하도록 변경
 
 email = models.EmailField(_("email address"), blank=True, unique=True)
+
 nickname = models.CharField(max_length=50, unique=True)
 
 # 느낀점
